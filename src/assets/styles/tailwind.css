@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    /* w-max for width: fit-content */
+    .root {
+        @apply w-screen h-screen p-5 bg-red-200;
+    }
+    .content {
+        @apply p-3 m-3 bg-white w-max;
+    }
+    .heading {
+        @apply text-3xl text-navyb mx-auto mb-5 font-bold;
+    }
+    .sub-heading {
+        @apply text-xl text-gray-400 m-3;
+    }
+    .link {
+        @apply m-4 text-red-600 p-2 bg-green-200;
+    }
+    .errtext {
+        @apply mt-2 text-red-400;
+    }
+    .code {
+        @apply bg-gray-300 text-black px-3 py-1;
+    }
+}
