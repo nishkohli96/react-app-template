@@ -1,8 +1,9 @@
+import { lazy } from 'react';
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
-
-import Page2 from '@Pages/Page2';
-import Page404 from '@Pages/Page404';
 import Sample from '@Components/Sample';
+
+const Page404 = lazy(() => import('@Pages/Page404'));
+const Page2 = lazy(() => import('@Pages/Page2'));
 
 const Routing = () => {
     return (

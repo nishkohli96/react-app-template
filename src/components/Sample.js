@@ -11,7 +11,7 @@ const Sample = () => {
                     Aliases in <span className="code">config-overrides.js</span>
                 </p>
                 <p className="mb-3">
-                    Custom Tailwind classes in{' '}
+                    Custom Tailwind classes in
                     <span className="code">src/styles/tailwind.css</span>
                 </p>
                 <p className="mb-3">

@@ -1,5 +1,8 @@
 module.exports = {
-    purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+    purge: {
+        enabled: true,
+        content: ['./src/**/*.js', './public/**/*.html'],
+    },
     darkMode: false, // or 'media' or 'class'
     theme: {
         extend: {
@@ -10,6 +13,7 @@ module.exports = {
             },
             screens: {
                 xs: '300px',
+                mobile: { min: '380px', max: '550px' },
             },
         },
     },

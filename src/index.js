@@ -1,15 +1,20 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom';
-import '@Styles/index.css';
 import App from './App';
+import LoadingComp from '@Components/LoadingComp';
 import reportWebVitals from './reportWebVitals';
+// import '@Styles/index.css';
+import '@Styles/tailwind.css';
 
-ReactDOM.render(
+const ReactApp = () => (
     <React.StrictMode>
-        <App />
-    </React.StrictMode>,
-    document.getElementById('root')
+        <Suspense fallback={<LoadingComp />}>
+            <App />
+        </Suspense>
+    </React.StrictMode>
 );
+
+ReactDOM.render(<ReactApp />, document.getElementById('root'));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

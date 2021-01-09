@@ -9,3 +9,9 @@
 -   React Router
 -   Material UI & Icons
 -   Tailwind Css Support
+
+**Important**
+
+For development use `tailwind.css` file to add styles.
+
+While building app for production, comment/remove `import tailwind.css` line in `index.js` and uncomment `import index.css` line.The Purge option in `tailwind.config.js` will remove all unused styles to give you an optimized css file.
