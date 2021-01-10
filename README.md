@@ -10,7 +10,7 @@
 -   Material UI & Icons
 -   Tailwind Css Support
 
-**Important**
+## Important
 
 For development use `tailwind.css` file to add styles.
 
