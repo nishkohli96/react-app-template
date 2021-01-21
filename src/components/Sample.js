@@ -8,14 +8,15 @@ const Sample = () => {
             <div className="content">
                 <p className="sub-heading">Configure as per your requirement</p>
                 <p className="mb-3">
-                    Aliases in <span className="code">config-overrides.js</span>
+                    Aliases in&nbsp;
+                    <span className="code">config-overrides.js</span>
                 </p>
                 <p className="mb-3">
-                    Custom Tailwind classes in
+                    Custom Tailwind classes in &nbsp;
                     <span className="code">src/styles/tailwind.css</span>
                 </p>
                 <p className="mb-3">
-                    Tailwind config in
+                    Tailwind config in&nbsp;
                     <span className="code">tailwind.config.js</span>
                 </p>
                 <Link to="/page2">

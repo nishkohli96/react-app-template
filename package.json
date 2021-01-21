@@ -22,7 +22,7 @@
   },
   "scripts": {
     "build-styles": "tailwindcss build src/assets/styles/tailwind.css -o src/assets/styles/index.css",
-    "start": "yarn build-styles && react-app-rewired start",
+    "start": "react-app-rewired start",
     "build": "yarn build-styles && react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject"
