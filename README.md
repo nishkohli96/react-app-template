@@ -17,4 +17,4 @@ For development use `tailwind.css` file to add styles.
 While building app for production, comment/remove `import tailwind.css` line in `index.js` and uncomment `import index.css` line. Also uncomment the **Purge** option in `tailwind.config.js` will remove all unused styles to give you an optimized css file.
 
 
-**Found it useful?** Thank me by [buying a coffee](buymeacoffee.com/nish1896)                 
+**Found it useful?** Thank me by [buying a coffee](https://www.buymeacoffee.com/nish1896)                 
